@@ -19,8 +19,8 @@ This project is a frontend Spotify clone created with HTML and CSS. It aims to r
 ## Features
 - **Webkit scroll-bar**: Ability to scroll through various lists on the web page.
 
-## Demo
-https://clinquant-bienenstitch-0a4803.netlify.app/
+## Demo[
+https://clinquant-bienenstitch-0a4803.netlify.app/](https://65d4b868472a40e5250aef93--sparkling-pixie-1fb8dc.netlify.app/)
 
 ## Snapshot
 ![snapshot1](https://github.com/yadavpratibha/WebDevelopment/assets/25881107/40c293c9-ea67-4be5-b231-2d992cf6ac5a)
