@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #dbdbdc;
+    font-size: 1.6rem;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+
+#container{
+    height: 95vh;
+    width: 350px;
+    margin: 20px auto;
+
+    border: 1.5px solid #dbdbdc;
+    
+}
+h1{
+    margin: 20px;
+}
+#play-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
+}
+#progress{
+    cursor: pointer;
+    width: 280px;
+}
+.sam{
+    width: 350px;
+}
+button{
+    background: none;
+    outline: none;
+    border: 0;
+}
+.song-item{
+    border: 1px solid #dbdbdc;
+    width: 70%;
+    border-radius: 20px;
+    color: #dbdbdc;
+
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    margin:10px auto;
+    list-style-type: none;
+}
+.song-item:hover{
+    background-color: rgb(90, 88, 88);
+ }
