@@ -1,36 +1,38 @@
 # Spotify-clone using HTML and CSS
 
 ## Overview
-![snapshot1](https://github.com/yadavpratibha/WebDevelopment/assets/25881107/70025e50-b833-4d77-a7c6-95a083d36438)
-A basic calculator web application built with HTML, CSS, and JavaScript.
+
+A simple Spotify clone built with HTML and CSS
 
 ## Table of Contents
 - [Description](#Description)
 - [Features](#Features)
 - [Demo](#Demo)
+- [Snapshot](#Snapshot)
 - [Usage](#Usage)
 - [LearningObjective](#LearningObjective)
 
 
 ## Description
-Simple Calculator is a frontend web application that provides basic arithmetic operations. Built with HTML for structure, CSS for styling, and JavaScript for interactive functionality, it offers an intuitive and user-friendly calculator experience.
+This project is a frontend Spotify clone created with HTML and CSS. It aims to replicate the user interface of the Spotify web page, providing a familiar and user-friendly experience for music enthusiasts.
 
 ## Features
-- **Arithmetic Operations**: Addition, subtraction, multiplication, and division.
-- **Responsive Design**: Ensures a consistent experience across various devices.
-- **Clear and Reset**: Easily clear the input or reset the entire calculation.
+- **Webkit scroll-bar**: Ability to scroll through various lists on the web page.
 
 ## Demo
-[https://clinquant-bienenstitch-0a4803.netlify.app/](https://65d44409c50afc89a287b374--incredible-semifreddo-d6ee8c.netlify.app/)
+https://clinquant-bienenstitch-0a4803.netlify.app/
+
+## Snapshot
+![snapshot1](https://github.com/yadavpratibha/WebDevelopment/assets/25881107/40c293c9-ea67-4be5-b231-2d992cf6ac5a)
+
+![snapshot2](https://github.com/yadavpratibha/WebDevelopment/assets/25881107/db33c7d5-386a-4959-ae06-2675dbd0c66a)
 
 ## Usage
+
 1. Open `index.html` in your preferred web browser.
-2. Perform calculations using the interactive buttons.
-3. Enjoy a simple and functional calculator experience.
+2. Explore the Spotify clone interface.
 
 ## LearningObjective
-* Style using CSS including layout design, color schemes, and responsive design for various screen sizes.
-* Manipulating DOM to dynamically update and display results on the webpage without requiring a full page reload.
-* Implement basic arithmetic operations (addition, subtraction, multiplication, division) in the calculator using JS.
-
-
+* Build and style static webpages with semantic HTML and CSS
+* Implement best practices and standards when structuring HTML files using nested elements, indentation, comments, and line breaks
+* Implement CSS styling via class, id and element selectors using external stylesheets, inline styles and embedded style tags
