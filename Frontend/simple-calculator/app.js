@@ -1,6 +1,3 @@
-
-
-
 let inputEl = document.querySelector('input')
 let btns = document.querySelectorAll('button')
 
