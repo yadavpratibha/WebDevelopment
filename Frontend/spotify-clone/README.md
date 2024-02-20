@@ -2,7 +2,7 @@
 
 ## Overview
 ![snapshot1](https://github.com/yadavpratibha/WebDevelopment/assets/25881107/70025e50-b833-4d77-a7c6-95a083d36438)
-> A basic calculator web application built with HTML, CSS, and JavaScript.
+A basic calculator web application built with HTML, CSS, and JavaScript.
 
 ## Table of Contents
 - [Description](#Description)
