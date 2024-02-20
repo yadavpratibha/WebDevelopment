@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar{
+    background-color: black;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+.navigation-left{
+    padding: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    padding: auto;
+    color: #1db954;
+}
+.navigation-left img{
+    height: 50px;
+    margin-top: 8px;
+}
+#Spotify{
+    flex-grow: 0.1;
+}
+#Favourites{
+    font-size: 25px;
+    color: aliceblue;
+    flex-grow: 2;
+    /* transform: translateX(30px); */
+}
+
+.navigation-right{
+    padding: auto;
+    /* transform: translateX(775px); */
+    border-radius: 5%;
+}
+
+.navigation-right img{
+    border-radius: 50%;
+    height: 42px;
+}
+#search,#bell,#profile-photo{
+    padding: 0.5%;
+    
+}
+
+
+
+/* ---------------------MAIN PAGE-------------------------- */
+.container{
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    color: aliceblue;
+    padding: 12px;
+    border:1px solid #c9c9c9;    
+    height: 1550px;
+}
+
+
+
+/* ------------------------QUEUE-SIDE--------------------------------- */
+#Queue-block{
+    height: 1550px;
+    overflow: auto;
+}
+#Queue-block::-webkit-scrollbar {
+    display: none;
+}
+
+#Queue-heading{
+    display: flex;
+    padding-left: 50px;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Queue-heading-title{
+    flex-grow: 5;
+}
+#Queue-dropdown{
+    font-size: 0.9rem;
+  padding: 2px 5px;
+  background-color: rgb(29, 29, 29);
+  border: none;
+  color: aqua;
+}
+.Queue-list{
+    display: flex;
+    align-items: center;    
+}
+.Queue-list-num{
+    padding: 30px;
+}
+.Queue-list-image img{
+    height: 65px;
+}
+.Queue-list-Song{
+    padding: 30px;
+    flex-grow: 2;
+}
+
+
+/* ------------------------------------LEFT-SIDE----------------------------------- */
+.left{
+    border-right:1px solid #c9c9c9;
+    width: 900px;
+}
+
+
+/* ---------------------------------------LARGE-ICON-PLAYLIST--------------------------------------- */
+.large-icon-playlist{
+    display: flex;
+    gap: 20px;
+   padding: 26px;
+}
+.large-icon-playlist img{
+    height: 270px;
+    transition: transform 0.5s;
+}
+.large-icon-playlist img:hover{
+    transform: scale(1.05);
+}
+
+/* ------------------------------------LATEST-RELEASES----------------------------------------- */
+.left-heading{
+    padding-left: 30px;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 15px;
+}
+.latest-releases-list{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.latest-releases-list img{
+    height: 80px;
+    padding-bottom: 20px;
+    /* opacity:1; */
+    /* transition: opacity 0.05s ease-in; */
+}
+.latest-releases-list img:hover{
+    /* opacity: 50%; */
+}
+.latest-releases-list-icon{
+    display: flex;
+}
+#play-button{
+    position: absolute;
+    translate: 30px;
+    transform: translateY(40px);
+    opacity: 0;
+    transition: opacity; 
+}
+#play-button:hover{
+    opacity: 1;
+}
+.latest-releases-list-icon #play-button:hover ~ img {
+    opacity: 0.5;
+  }  
+.latest-releases-list-song{
+    padding: 10px;
+    flex-grow: 2;
+    width: 80px;
+}
+.latest-releases-list-time{
+    padding-right: 20px;
+    width: 70px;
+}
+
+
+/* -------------------------------------POPULAR-ARTIST----------------------------------------------------- */
+.popular-artist-sliding{
+    display: flex;
+    overflow: auto;
+}
+.popular-artist-sliding::-webkit-scrollbar {
+    display: none;
+}
+.popular-artist-sliding img{
+    height: 120px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.popular-artist-sliding figure{ 
+    justify-content: inherit;
+}
+.popular-artist-sliding figcaption{
+    text-align: center;
+}
+
+
+
+/* -----------------------------------MUSIC-THEME-SLIDING------------------------------------------------- */
+.music-theme-sliding{
+    display: flex;
+    overflow: auto;
+}
+.music-theme-sliding::-webkit-scrollbar {
+    display: none;
+}
+.music-theme-sliding img{
+    height: 120px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.music-theme-sliding figure{
+    justify-content: inherit;
+}
+.music-theme-sliding figcaption{
+    text-align: center;
+}
+#music-sliding-fixed{
+    position:absolute;
+    background-color: rgb(29, 29, 29);
+}
+
+/* -------------------------------------LATEST-ENGLISH------------------------------------- */
+.latest{
+    display: flex;    
+    overflow: auto;
+}
+.latest::-webkit-scrollbar {
+    display: none;
+}
+.latest img{
+    height: 120px;
+    padding: 10px;
+}
+.latest figure{
+    justify-content: inherit;
+}
+.latest figcaption{
+    text-align: center;
+}
+
+
+
+
+
+/* -------------------------------------LATEST HINDI----------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
