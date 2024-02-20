@@ -7,12 +7,13 @@ A simple Spotify clone built with HTML and CSS
 ## Table of Contents
 - [Description](#Description)
 - [Features](#Features)
-- [Demo](#Femo)
+- [Demo](#Demo)
 - [Snapshot](#Snapshot)
-- [Learning Objective](#Learning Objective)
 - [Usage](#Usage)
+- [Learning Objective](#LearningObjective)
 
-##Decsription
+
+## Description
 This project is a frontend Spotify clone created with HTML and CSS. It aims to replicate the user interface of the Spotify web page, providing a familiar and user-friendly experience for music enthusiasts.
 
 ## Features
@@ -31,7 +32,7 @@ https://clinquant-bienenstitch-0a4803.netlify.app/
 1. Open `index.html` in your preferred web browser.
 2. Explore the Spotify clone interface.
 
-## Learning Objectives
+## LearningObjectives
 * Build and style static webpages with semantic HTML and CSS
 * Implement best practices and standards when structuring HTML files using nested elements, indentation, comments, and line breaks
 * Implement CSS styling via class, id and element selectors using external stylesheets, inline styles and embedded style tags
