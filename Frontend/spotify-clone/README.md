@@ -10,7 +10,7 @@ A simple Spotify clone built with HTML and CSS
 - [Demo](#Demo)
 - [Snapshot](#Snapshot)
 - [Usage](#Usage)
-- [Learning Objective](#LearningObjective)
+- [LearningObjective](#LearningObjective)
 
 
 ## Description
@@ -32,7 +32,7 @@ https://clinquant-bienenstitch-0a4803.netlify.app/
 1. Open `index.html` in your preferred web browser.
 2. Explore the Spotify clone interface.
 
-## LearningObjectives
+## LearningObjective
 * Build and style static webpages with semantic HTML and CSS
 * Implement best practices and standards when structuring HTML files using nested elements, indentation, comments, and line breaks
 * Implement CSS styling via class, id and element selectors using external stylesheets, inline styles and embedded style tags
