@@ -1,8 +1,10 @@
-# Spotify-clone using HTML and CSS
+# Music-Player using HTML, CSS and Javascript
 
 ## Overview
 
-A simple Spotify clone built with HTML and CSS
+![snapshot1](https://github.com/yadavpratibha/WebDevelopment/assets/25881107/e27c1aa3-af57-4ede-87b8-08dc691f8cec)
+
+A sleek and responsive music player web application built with HTML, CSS, and JavaScript.
 
 ## Table of Contents
 - [Description](#Description)
@@ -14,25 +16,24 @@ A simple Spotify clone built with HTML and CSS
 
 
 ## Description
-This project is a frontend Spotify clone created with HTML and CSS. It aims to replicate the user interface of the Spotify web page, providing a familiar and user-friendly experience for music enthusiasts.
+Frontend Music Player is a modern web application designed for playing and managing your favorite music seamlessly. Built with HTML for structure, CSS for styling, and JavaScript for dynamic functionality, it provides an immersive music listening experience.
 
 ## Features
-- **Webkit scroll-bar**: Ability to scroll through various lists on the web page.
+- **Responsive Design**: Ensures an optimal user experience across various devices.
+- **Music Playback**: Play, pause, previous and next with a user-friendly interface.
+- **Playlist**: Select song according to your choice.
 
 ## Demo
 https://65d4b868472a40e5250aef93--sparkling-pixie-1fb8dc.netlify.app/
 
-## Snapshot
-![snapshot1](https://github.com/yadavpratibha/WebDevelopment/assets/25881107/40c293c9-ea67-4be5-b231-2d992cf6ac5a)
-
-![snapshot2](https://github.com/yadavpratibha/WebDevelopment/assets/25881107/db33c7d5-386a-4959-ae06-2675dbd0c66a)
-
 ## Usage
-
 1. Open `index.html` in your preferred web browser.
-2. Explore the Spotify clone interface.
+2. Explore the music player interface and enjoy your favorite tunes.
+3. Select song provided in the UI.
+4. Play, pause, previous and next with a user-friendly interface
 
 ## LearningObjective
 * Build and style static webpages with semantic HTML and CSS
-* Implement best practices and standards when structuring HTML files using nested elements, indentation, comments, and line breaks
-* Implement CSS styling via class, id and element selectors using external stylesheets, inline styles and embedded style tags
+* Style using CSS, focusing on layout design and responsive design principles..
+* Utilize the Web Audio API in JS to handle music playback, volume control, and other audio-related functionalities.
+* Handle user events such as play, pause, skip, volume control, etc., to create an interactive and responsive music player.
